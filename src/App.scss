@@ -1,2 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=League+Spartan:wght@200;400;600;800&display=swap");
+
+@import "Styles/style";
 @import "Styles/Header";
+@import "Styles/ItalianCuisine";
+@import "Styles/About";
+@import "Styles/BestSellers";
+@import "Styles/MainMenu";
+@import "Styles/ModernInterior";
+@import "Styles/Visit";
+@import "Styles/Footer";
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "League Spartan", sans-serif;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+
 
