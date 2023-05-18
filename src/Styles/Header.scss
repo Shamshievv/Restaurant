@@ -111,9 +111,10 @@
           padding-left: 40px;
           text-transform: capitalize;
           color: #FFFFFF;
-          ::placeholder {
-            color: #FFFFFF;
-          }
+
+        }
+        input::placeholder{
+          color: white;
         }
         span {
           position: absolute;
