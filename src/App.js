@@ -1,14 +1,24 @@
 import './App.scss';
 import Header from "./components/Header";
-import ItalianCuisine from "./Pages/Hero";
+
 import Visit from "./Pages/Visit";
+import Footer from "./Pages/Footer";
+import {Route, Routes} from "react-router-dom";
+import Hero from "./Pages/Hero";
+import About from "./Pages/About";
+import MainMenu from "./Pages/mainMenu";
 
 function App() {
   return (
     <div className="App">
     <Header/>
-    <ItalianCuisine/>
-     <Visit/>
+    <Routes>
+        <Route path={"/about"} element={<About/>}/>
+        <Route path={"/menu"} element={<MainMenu/>}/>
+    </Routes>
+        <Hero/>
+        <Visit/>
+        <Footer/>
     </div>
   );
 }

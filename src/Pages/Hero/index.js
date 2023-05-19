@@ -15,9 +15,14 @@ const Hero = () => {
 
         }
         else {
-            setOpen(false)
+           return setOpen(false)
+
+
         }
     }
+    window.addEventListener("click",() => {
+
+    })
 
     return (
         <div id="hero">
