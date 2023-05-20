@@ -9,18 +9,19 @@ import About from "./Pages/About";
 import MainMenu from "./Pages/mainMenu";
 
 function App() {
-  return (
-    <div className="App">
-    <Header/>
-    <Routes>
-        <Route path={"/about"} element={<About/>}/>
-        <Route path={"/menu"} element={<MainMenu/>}/>
-    </Routes>
-        <Hero/>
-        <Visit/>
-        <Footer/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Routes>
+                <Route path={"/about"} element={<About/>}/>
+                <Route path={"/menu"} element={<MainMenu/>}/>
+            </Routes>
+            <Hero/>
+            <Visit/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
+
