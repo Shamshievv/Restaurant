@@ -11,11 +11,11 @@ const Hero = () => {
     const [open,setOpen] = useState(false)
     function getOpen(){
         if (open === false){
-           setOpen(true)
+            setOpen(true)
 
         }
         else {
-           return setOpen(false)
+            return setOpen(false)
 
 
         }
@@ -44,8 +44,8 @@ const Hero = () => {
                             <div/>
                             <button onClick={() =>getOpen() }>
                                 <h1>Reserve Your Table<AiOutlineArrowRight style={{
-                                marginLeft: '15px'
-                            }}/></h1></button>
+                                    marginLeft: '15px'
+                                }}/></h1></button>
                             <div/>
                         </div>
                         <div className="hero--main__modal"style={{

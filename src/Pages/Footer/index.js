@@ -8,7 +8,7 @@ const Footer = () => {
         <div id="footer">
             <div className="container">
                 <div className="footer">
-                     <h2>Restaurant</h2>
+                    <h2>Restaurant</h2>
                     <div className="footer--title">
                         <Link className="footer--title__link" to={"/"}>
                             interior

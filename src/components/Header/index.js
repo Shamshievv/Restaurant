@@ -14,7 +14,7 @@ const Header = () => {
                             transform: !burger ? 'translateY(-120%)' : "",
                             transition:!burger ? "04,01,0s" : "04,01,0s",
                             animation:"2s easy-in-out"
-                    }}
+                        }}
                         className="header__menu">
                         <nav className="header__menu--navbar">
                             <NavLink onClick={() => setBurger(true)} >
@@ -85,12 +85,12 @@ const Header = () => {
 
                             }} className="header__brm--ser"/>
                             <div style={{
-                                    transform:burger ? "rotate(0) " : "rotate(0)",
-                                    display:burger ? "none" : "block"
+                                transform:burger ? "rotate(0) " : "rotate(0)",
+                                display:burger ? "none" : "block"
                             }} className="header__brm--sub"/>
                             <div style={{
-                                    transform:burger ? "rotate(0) " : "rotate(0)",
-                                    display:burger ? "none" : "block"
+                                transform:burger ? "rotate(0) " : "rotate(0)",
+                                display:burger ? "none" : "block"
                             }} className="header__brm--bottom"/>
                         </div>
                         <div  style={{
@@ -99,7 +99,7 @@ const Header = () => {
                             transition:burger ? ".4s": ""
 
                         }}
-                             className="header__close"/>
+                              className="header__close"/>
                     </div>
                 </div>
             </div>
