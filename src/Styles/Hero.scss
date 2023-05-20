@@ -140,7 +140,10 @@
       &__modal{
         position: absolute;
         z-index: 1;
-        transform: translate(700px,-400px);
+        transition: 1s;
+        transform: translate(700px, -400px);
+        right: 0;
+        bottom: -30px;
         &--window{
           width: 320px;
           height: 370px;
@@ -335,6 +338,12 @@
         width: 90%;
         bottom: 2%;
       }
+      &--main{
+        &__modal{
+          //transform: translateX(-500px);
+          right: 70px;
+        }
+      }
     }
   }
 
@@ -346,6 +355,11 @@
       &--absence {
         padding-top: 6%;
 
+      }
+      &--main{
+        &__modal{
+          right: 90px;
+        }
       }
 
       &__line-bottom {
@@ -375,6 +389,7 @@
       &--main{
         &__modal{
           padding: 90px 0;
+          right: 200px;
           &--window{
             width: 250px;
             height: 306px;
@@ -488,7 +503,8 @@
           font-size: 100%;
         }
         &__modal{
-          transform: translate(200px,-400px);
+          //transform: translate(200px,-400px);
+          right: 320px;
           &--window{
             width: 339px;
             height: 321px;
@@ -588,7 +604,8 @@
           font-size: 77%;
         }
         &__modal{
-          transform: translate(100px,-400px);
+          //transform: translate(100px,-400px);
+          left: -80px;
           &--window{
 
           }
@@ -658,7 +675,9 @@
     .hero{
       &--main{
         &__modal{
-          transform: translate(89,-300);
+          //transform: translate(89,-300);
+          //right: 20px;
+          //right: 400px;
         }
       }
     }
@@ -678,7 +697,8 @@
     .hero{
       &--main{
         &__modal{
-          transform: translate(84px, -470px);
+          //transform: translate(84px, -470px);
+          left: -130px;
         }
       }
     }
