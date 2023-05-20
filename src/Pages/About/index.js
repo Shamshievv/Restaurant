@@ -11,7 +11,6 @@ const About = () => {
                     <div className="about--block">
                         <div>
                             <img className="about--block__img1" src={ablogo} alt="img"/>
-                            <h2>A Journey Throught Cafesio Flavors</h2>
                         </div>
                         <p>Try dishes that will open
                             up new tastes for you and

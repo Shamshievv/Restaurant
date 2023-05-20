@@ -52,31 +52,31 @@ const bestSellers = () => {
     return (
         <div id="reserve">
             <div className="container">
-            <div className="reserve">
-                <div className="reserve--block" >
-                    <img className="reserve--block__img" src={ablogo} alt="img"/>
-                    <h2>You Only Reserve
-                        Exception
-                    </h2>
-                    <p>Each location has a menu that`s curated just for them.
-                        See what new at your Cafesio and You`ll find Cafesio
-                        Covent Carden moments.
-                    </p>
+                <div className="reserve">
+                    <div className="reserve--block" >
+                        <img className="reserve--block__img" src={ablogo} alt="img"/>
+                        <h2>You Only Reserve
+                            Exception
+                        </h2>
+                        <p>Each location has a menu that`s curated just for them.
+                            See what new at your Cafesio and You`ll find Cafesio
+                            Covent Carden moments.
+                        </p>
+                    </div>
+                    <div className="reserve--swiper" >
+                        <Slider{...settings}>
+                            <div className="reserve--swiper__item" >
+                                <img src={ablogos1} alt="img"/>
+                            </div>
+                            <div className="reserve--swiper__item">
+                                <img src={ablogos2} alt="img"/>
+                            </div>
+                            <div className="reserve--swiper__item">
+                                <img src={ablogos2} alt="img"/>
+                            </div>
+                        </Slider>
+                    </div>
                 </div>
-                <div className="reserve--swiper" >
-                    <Slider{...settings}>
-                        <div className="reserve--swiper__item" >
-                            <img src={ablogos1} alt="img"/>
-                        </div>
-                        <div className="reserve--swiper__item">
-                            <img src={ablogos2} alt="img"/>
-                        </div>
-                        <div className="reserve--swiper__item">
-                            <img src={ablogos2} alt="img"/>
-                        </div>
-                    </Slider>
-                </div>
-            </div>
             </div>
         </div>
 
