@@ -1,7 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import {FiSearch} from "react-icons/fi";
-
 const Header = () => {
     return (
        <header>
