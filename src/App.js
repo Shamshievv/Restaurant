@@ -7,6 +7,7 @@ import {Route, Routes} from "react-router-dom";
 import Hero from "./Pages/Hero";
 import About from "./Pages/About";
 import MainMenu from "./Pages/mainMenu";
+import BestSellers from "./Pages/BestSellers";
 
 function App() {
     return (
@@ -17,6 +18,9 @@ function App() {
                 <Route path={"/menu"} element={<MainMenu/>}/>
             </Routes>
             <Hero/>
+
+            <About/>
+            <BestSellers/>
             <Visit/>
             <Footer/>
         </div>

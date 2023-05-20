@@ -1,4 +1,5 @@
 import React from 'react';
+
 import wave from "../../images/hero-wave.svg"
 import {BsFillTelephoneOutboundFill} from "react-icons/bs";
 import {MdOutlineMailOutline} from "react-icons/md";
@@ -58,7 +59,9 @@ const Visit = () => {
                 </div>
             </div>
         </div>
+
     );
 };
+
 
 export default Visit;
