@@ -1,4 +1,5 @@
 import React from 'react';
+import * as diagnostics_channel from "diagnostics_channel";
 
 import wave from "../../images/hero-wave.svg"
 import {BsFillTelephoneOutboundFill} from "react-icons/bs";
