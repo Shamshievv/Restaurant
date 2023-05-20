@@ -21,7 +21,7 @@ const Visit = () => {
                             <p> 225$.Lake Ave.Suite 1150 <br/>
                                 Pasadena,CA 911101</p>
                         </p>
-                        <p>
+                        <p style={{paddingBottom:"10px"}}>
                             <span className="visit--title__last">
                                 Opening hours:</span>
                             <p><br/>
@@ -29,8 +29,8 @@ const Visit = () => {
                                 <br/>
                                 Fri-Sun: 10:00 am - 02:00 am</p>
                         </p>
-                        <hr className="visit--title__line"/>
-                        <button>Purchase gift card > </button>
+                        <hr style={{}} className="visit--title__line"/>
+                        <button style={{margin:"10px 0"}}>Purchase gift card > </button>
                         <hr className="visit--title__two"/>
                     </div>
                     <div className="visit--nav">
