@@ -25,6 +25,16 @@ body{
 html{
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: rgba(190, 188, 188, 0.54);
+}
+::-webkit-scrollbar-thumb{
+  background: rgba(16, 13, 13, 0.47);;
+  border-radius: 20px;
+}
 .container{
   width: 90%;
   margin: 0 auto;

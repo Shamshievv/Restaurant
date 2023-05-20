@@ -20,24 +20,29 @@ const Hero = () => {
 
         }
     }
-    function getClose () {
-        if (open === true){
-            setOpen(false)
-        }
-
-    }
+    // function getClose () {
+    //     if (open === true){
+    //         setOpen(false)
+    //     }
+    //
+    // }
 
 
     return (
-      <div onClick={getClose} style={{
-          overflow:"hidden"
+      <div style={{
+          overflow:"hidden",
+
       }}>
-          <div  id="hero">
+          <div  style={{
+              backdropFilter:open ? "blur(4px)" : "blur(0)",
+          }}  id="hero">
               <div className="container">
                   <hr className="hero__line-top"/>
                   <hr className="hero__line-bottom"/>
                   <hr className="hero__line-left"/>
-                  <div className="hero">
+                  <div style={{
+                      // backdropFilter:open ? "blur(4px)" : "blur(0)",
+                  }} className="hero">
                       <div className="hero--block">
                           <img src={wave} alt=""/>
                           <h4>Delicious</h4>

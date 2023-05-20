@@ -2,7 +2,6 @@
   background: url("../images/Hero-bg.jpeg") center/cover no-repeat;
   min-height: 90vh;
   position: relative;
-
   .hero {
     display: flex;
     align-items: center;
@@ -73,7 +72,6 @@
       }
     }
 
-
     &--main {
       position: relative;
       z-index: 99;
@@ -115,6 +113,7 @@
         }
 
         button {
+          cursor: pointer;
           border: 2px solid red;
           margin: 5px 125px;
           background: transparent;
@@ -138,6 +137,7 @@
       }
 
       &__modal{
+
         position: absolute;
         z-index: 1;
         transition: 1s;
