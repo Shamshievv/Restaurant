@@ -503,8 +503,8 @@
           font-size: 100%;
         }
         &__modal{
-          //transform: translate(200px,-400px);
-          right: 320px;
+          //transform: translateX(100px);
+          right: 250px;
           &--window{
             width: 339px;
             height: 321px;
@@ -592,14 +592,11 @@
   }
   #hero {
     .hero {
-
       &--main {
-
         h1 {
           font-size: 40px;
           margin: 0;
         }
-
         &__bar {
           font-size: 77%;
         }
