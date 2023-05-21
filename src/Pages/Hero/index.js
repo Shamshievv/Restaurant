@@ -14,8 +14,6 @@ const Hero = () => {
             setOpen(true)
         } else {
             return setOpen(false)
-
-
         }
     }
     // function getClose () {
@@ -29,7 +27,6 @@ const Hero = () => {
     return (
         <div style={{
             overflow:"hidden",
-
         }}>
             <div  style={{
                 backdropFilter:open ? "blur(4px)" : "blur(0)",
