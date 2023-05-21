@@ -12,9 +12,7 @@ const Hero = () => {
     function getOpen(){
         if (open === false){
             setOpen(true)
-
-        }
-        else {
+        } else {
             return setOpen(false)
 
 
