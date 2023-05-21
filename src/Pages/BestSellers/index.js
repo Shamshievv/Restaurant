@@ -6,15 +6,6 @@ import ablogos2 from './../../image/Frame 20.png'
 import Slider from "react-slick";
 
 const bestSellers = () => {
-    // const settings = {
-    //     dots: true,
-    //     infinite: true,
-    //     slidesToShow: 2,
-    //     slidesToScroll: 2,
-    //     autoplay: false,
-    //     speed: 2000,
-    //     autoplaySpeed: 2000,
-    // };
     const settings = {
         dots: true,
         infinite: false,

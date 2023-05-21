@@ -20,7 +20,7 @@ const About = () => {
                             service and attention to each
                             guest. Book a table now and
                             enjoy a unique experience of
-                            taste discovery!
+                            taste discovery!=
                         </p>
                     </div>
                     <div className="about--block2">
@@ -34,3 +34,5 @@ const About = () => {
 };
 
 export default About;
+
+
