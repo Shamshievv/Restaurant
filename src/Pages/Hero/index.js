@@ -40,7 +40,7 @@ const Hero = () => {
                     }} className="hero">
                         <div className="hero--block">
                             <img src={wave} alt=""/>
-                            <h4>Delicious</h4>
+                            <h4>Deliciousrdctfvgybhnjkml,</h4>
                             <img src={waveRight} alt=""/>
                         </div>
                         <div className="hero--main">
