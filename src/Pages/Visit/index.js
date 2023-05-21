@@ -1,4 +1,5 @@
 import React from 'react';
+
 import wave from "../../images/hero-wave.svg"
 import {BsFillTelephoneOutboundFill} from "react-icons/bs";
 import {MdOutlineMailOutline} from "react-icons/md";
@@ -13,7 +14,7 @@ const Visit = () => {
                     <div className="visit--title">
                         <img src={wave} alt=""/>
                         <span className="visit--title__sub">Restaurant</span>
-                        <h2>Join Us  for <br/>
+                        <h2>Join Us  for  <br/>
                             Happy Hours</h2>
                         <p className="visit--title__exs">
                             <span> Your neighborhood</span>
@@ -58,7 +59,9 @@ const Visit = () => {
                 </div>
             </div>
         </div>
+
     );
 };
+
 
 export default Visit;

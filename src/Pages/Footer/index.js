@@ -1,3 +1,4 @@
+
 import React from 'react';
 import {Link} from "react-router-dom";
 import {FaTelegramPlane} from "react-icons/fa";
@@ -35,3 +36,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

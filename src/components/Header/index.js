@@ -1,7 +1,8 @@
 import {CiSearch} from "react-icons/ci";
-
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
+
+import {FiSearch} from "react-icons/fi";
 
 const Header = () => {
     const [burger, setBurger] = useState(false)
